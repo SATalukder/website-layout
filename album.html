@@ -19,6 +19,7 @@
             border-radius: 10px;
             position: relative;
             margin: 10px;
+            overflow: hidden;
         }
 
         .without-lady {
@@ -49,6 +50,11 @@
             display: block;
             background-color: rgba(193, 156, 64, 0.5);
 
+        }
+
+        .photo-frame:hover .photo {
+            transform: scale(1.5) skew(-30deg);
+            transition: transform 1s ease-in-out;
         }
     </style>
 
